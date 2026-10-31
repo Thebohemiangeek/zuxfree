@@ -1,0 +1,13 @@
+# Applied when ZUXFREE_REGION_SPOOF=1 (experimental). Makes ZUI treat the
+# tablet as a global (ROW) unit. Side effects: the Lenovo updater may stop
+# finding Chinese OTAs, and some ZUI features keyed to PRC may change.
+ro.config.lgsi.region=row
+ro.vendor.config.lgsi.region=row
+ro.config.zui.region=ROW
+ro.odm.lenovo.region=row
+ro.boot.pcbaidinfo=ROW
+ro.product.countrycode=US
+ro.config.lgsi.countrycode=US
+ro.odm.lenovo.countrycode=USXX
+ro.product.locale.language=en-US
+ro.product.locale.region=US

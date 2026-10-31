@@ -1,0 +1,22 @@
+#!/sbin/sh
+# Standard root-manager module entry point: hand the zip to the manager's
+# own installer, which then sources customize.sh.
+umask 022
+
+OUTFD=$2
+ZIPFILE=$3
+export OUTFD ZIPFILE
+
+ui_print() { echo "$1"; }
+
+mount /data 2>/dev/null
+
+if [ ! -f /data/adb/magisk/util_functions.sh ]; then
+  ui_print "! Install this zip from Magisk, KernelSU or APatch, not from recovery."
+  exit 1
+fi
+
+# shellcheck source=/dev/null
+. /data/adb/magisk/util_functions.sh
+install_module
+exit 0

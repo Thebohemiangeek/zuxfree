@@ -1,0 +1,7 @@
+id=zuxfree
+name=ZUXFree for Legion Y700 Gen 4
+version=v0.1.0
+versionCode=100
+author=Thebohemiangeek
+description=Hides China-only ZUXOS apps systemlessly on the TB322FC. Bundles no firmware files; fully reversible.
+updateJson=https://raw.githubusercontent.com/Thebohemiangeek/zuxfree/main/update.json

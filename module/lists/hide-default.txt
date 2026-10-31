@@ -1,0 +1,19 @@
+# System apps hidden by default. These are China-only services that ZUI
+# turns back on at every boot, so per-user uninstall or disable does not stick.
+# Paths were read from a TB322FC on ZUXOS 1.5.10.259; anything missing on
+# another firmware is skipped at install time.
+#
+# path                                    package                         what it is
+/system/priv-app/BaiduNetworkLocation     com.baidu.map.location          Baidu network location provider
+/system/priv-app/XuiEasySync              com.lenovo.leos.cloud.sync      Lenovo China cloud sync
+/system/priv-app/LenovoWhatsNew           com.tblenovo.lenovowhatsnew     Lenovo promotional pop-ups
+/system/priv-app/TabletPushOut            com.tblenovo.tabpushout         Lenovo promotional push service
+/system/priv-app/LeVoiceAgent             com.lenovo.levoice_agent        Xiaotian voice assistant (Chinese only)
+/system/priv-app/XiaotianTrigger          com.lenovo.xiaotian.trigger     Xiaotian voice wake trigger
+/system/product/priv-app/LenovoXiaoTian   com.lenovo.xiaotian             Xiaotian assistant (present on some builds)
+/system/priv-app/LFHTianjiaoTablet        com.lenovo.lfh.tianjiao.tablet  China-only Lenovo "Tianjiao" service
+/system/priv-app/ZuiNewBrowser            com.zui.browser                 ZUI China browser
+/system/priv-app/LenovoStore              com.lenovo.leos.appstore        Lenovo China app store (system copy on some builds)
+/system/priv-app/DataMonitor              com.zui.net.data.monitor        China carrier data monitor
+/system/priv-app/ZuiXlog                  com.zui.xlog                    ZUI diagnostic log uploader
+/system/product/app/xiangbb               com.lenovo.xbb                  Lenovo "Xiangbb" assistant

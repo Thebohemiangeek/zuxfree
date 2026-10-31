@@ -1,0 +1,7 @@
+# Hidden when ZUXFREE_BLOCK_OTA=1.
+# A Lenovo OTA installed on a rooted, modified system can remove root or fail
+# to boot. Blocking the updater means you update by flashing full firmware
+# yourself (and re-patching init_boot) instead.
+#
+# path                                    package                         what it is
+/system/priv-app/LenovoOTA                com.lenovo.ota                  Lenovo system updater

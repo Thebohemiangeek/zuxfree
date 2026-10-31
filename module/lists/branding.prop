@@ -1,0 +1,11 @@
+# Applied when ZUXFREE_BRANDING=1: English device naming and turning off the
+# China-only web filter and education restrictions. Region is not changed.
+ro.config.lgsi.market_name=Legion Tab Y700
+ro.config.lgsi.short_market_name=Legion Tab Y700
+ro.vendor.config.lgsi.market_name=Legion Tab Y700
+ro.vendor.config.lgsi.short_market_name=Legion Tab Y700
+ro.zuk.product.market=Legion Tab Y700
+ro.zui.software.safeurl=false
+ro.zui.software.weblimit=false
+ro.config.lgsi.education=false
+ro.config.zui.education=false

@@ -1,0 +1,25 @@
+# Preinstalled China-market apps removed for the main user (exact package
+# names, no pattern matching). Each removal is written to a ledger and undone
+# when ZUXFree is uninstalled. Put a package in ZUXFREE_KEEP to keep it.
+#
+# package                          what it is
+com.sohu.inputmethod.sogou.oem     Sogou Chinese keyboard
+com.lemon.lv                       CapCut China (Jianying)
+com.lenovo.leos.appstore           Lenovo China app store
+com.lenovo.club.app                Lenovo Smart Buy shop
+com.ss.android.ugc.aweme           Douyin
+com.smile.gifmaker                 Kuaishou
+com.qiyi.video.pad                 iQIYI HD
+com.youku.phone                    Youku
+com.sina.weibo                     Weibo
+com.netease.cloudmusic             NetEase Cloud Music
+com.baidu.netdisk                  Baidu Netdisk
+com.bilibili.comic                 Bilibili Comics
+com.qihoo.aiwork                   360 AI Office
+cn.canva.editor                    Canva China
+com.photosir.flashpaint            Flash Paint
+net.huanci.hsjpro                  Huanci painting app
+com.lenovo.nceetj.educenterhd      Lenovo China education center
+cn.emagsoftware.gamehall           China Mobile game hall
+com.lenovo.minigamelauncher        Lenovo mini-game launcher
+com.android.preconditions.cts      CTS test helper shipped in some builds

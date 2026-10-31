@@ -1,0 +1,8 @@
+# Extra system apps hidden when ZUXFREE_HIDE_OPTIONAL=1.
+# Each one removes a feature some people use, so they are off by default.
+#
+# path                                    package                         what you lose
+/system/priv-app/LeVoiceCaptionApp        com.lenovo.levoice.caption      Live captions / translation overlay
+/system/priv-app/ZuiAILens                com.zui.ai.lens                 ZUI AI Lens (China services)
+/system/priv-app/ZuiDeviceidService       com.zui.deviceidservice         China OAID advertising-ID service (some CN apps want it)
+/system/priv-app/ZUISetupWizardExtPRC     com.zui.setupwizard             PRC first-boot setup steps (needed only for a factory reset setup)
