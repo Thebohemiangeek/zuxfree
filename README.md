@@ -15,6 +15,8 @@ A root module that strips the China-only parts out of ZUXOS on the **Lenovo Legi
 | **Configurable** | Keep apps, remove extra ones, hide more, block the Lenovo updater, all from one settings file that updates never overwrite. |
 | **Safe by construction** | No network access during install, no bundled Lenovo/Google APKs, and list entries missing on your firmware are skipped instead of failing. |
 
+**Pair it with [ZUXFree Xposed](https://github.com/Thebohemiangeek/DeZUXposed/releases)** (an LSPosed module) for the parts a root module can't reach: turning off China-only features through ZUI's own feature switches, unlocking global Settings entries, Circle to Search, and removing the WeChat/QQ shortcuts from Game Assistant.
+
 It does **not** touch Google services, Play Integrity, Widevine or the bootloader. Whether Netflix HD keeps working depends on how you rooted, not on this module.
 
 ## Requirements
