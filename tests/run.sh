@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# shellcheck disable=SC2016,SC2030,SC2031,SC2329  # check() takes single-quoted expressions; helpers run in subshells
+# shellcheck disable=SC2016,SC2030,SC2031,SC2317,SC2329  # check() takes single-quoted expressions; helpers run in subshells
 # Runs ZUXFree's scripts against a simulated device: fake pm/cmd/getprop/
 # resetprop binaries backed by files in a temp "device" directory.
 set -u
